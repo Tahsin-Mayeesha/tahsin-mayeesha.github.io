@@ -80,7 +80,7 @@
         -->
         <p>Hi! I am currently working as a researcher in <a href="https://sites.google.com/view/nsuhci/home">NSU HCI DIAL(Design and Inclusion) Lab</a>
           on a Google funded project to research on education related barriers and challenges of South Asian women in computing. Concurrently I'm also managing 
-          3 Bengali NLP projects in the domain of Bengali Question Answering/Generation research as a senior Research Assistant. I have worked as a predoctoral
+          3 Bengali NLP projects on generative models in the domain of Question Answering research as a senior Research Assistant. I have worked as a predoctoral
           fellow in <a href="https://www.fatimafellowship.com/"> Fatima Fellowship</a> on a NLP project with mentor <a href="https://benjamin-mlr.github.io/">Benjamin Muller</a>
           on investigating cultural biases such as formality in multilingual generative models.
         </p>
@@ -98,12 +98,18 @@
         </p>
 
         <p>
-        I like to watch anime, read manga or books and take care of my cats during my free time. I've blogged in <a href=https://medium.com/learning-machine-learning>Medium</a> during undergrad.
+        I like to watch anime, read manga or books and take care of my cats during my free time.
         </p>
 
         <p align=center>
-          <a href="mailto:tasmiah.tahsin@northsouth.edu">Email</a> &nbsp/&nbsp 
-          <a href="https://drive.google.com/file/d/1xwmIJLMfVqJhxZNQd0hhihyidCcDisHA/view?usp=sharing">CV</a> &nbsp/&nbsp
+          <a href="mailto:tasmiah.tahsin@northsouth.edu">Email</a> &nbsp/&nbsp
+          <!-- 
+            add cv link in between href "" 
+
+            Link: 
+           
+          <a href="">CV</a> &nbsp/&nbsp
+           -->
           <a href="https://www.linkedin.com/in/tahsin-mayeesha/"> LinkedIn </a> &nbsp/&nbsp
           <a href="https://scholar.google.com/citations?user=MRDAGP8AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
           <a href="https://github.com/Tahsin-Mayeesha">GitHub</a> &nbsp/&nbsp
@@ -182,7 +188,7 @@
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
       <tr>
         <td width="100%" valign="middle">
-          <heading>Publications</heading>
+          <heading>Publications/Preprint</heading>
           <p>
             See also my Google Scholar profile for the <a href="https://scholar.google.com/citations?hl=en&user=MRDAGP8AAAAJ&view_op=list_works&sortby=pubdate"> most recent publications</a> as well 
             as the <a href="https://scholar.google.com/citations?hl=en&user=MRDAGP8AAAAJ&view_op=list_works">most-cited papers</a>.
@@ -190,8 +196,6 @@
         </td>
       </tr>
       </table>
-
-
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
         <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" ></tr>
@@ -242,6 +246,68 @@
         <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" ></tr>
         <td width="25%">
           <div class="one">
+            <div class="two" id = 'jump_image'><img src='vgq3.png'></div>
+            <img src='vgq3.png'>
+          </div>
+          <script type="text/javascript">
+            function jump_start() {
+              document.getElementById('jump_image').style.opacity = "1";
+            }
+            function jump_stop() {
+              document.getElementById('jump_image').style.opacity = "0";
+            }
+            jump_stop()
+          </script>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://synalp.gitlabpages.inria.fr/mmnlg2023/accepted/">
+          <papertitle> Visual Question Generation in Bengali </papertitle></a><br>
+          Authors : Mahmud Hasan, Labiba Islam, Jannatul Ruma, <strong>Tasmiah Tahsin Mayeesha </strong> & Rashedur Rahman <br> 
+          <em>Submission to EMNLP</em>, 2023<br>
+          <!--<font color="red">(Oral Presentation)</font></a> -->
+          </p>
+          <a href="https://synalp.gitlabpages.inria.fr/mmnlg2023/accepted/">Paper</a> 
+
+            <p>
+              The task of Visual Question Generation (VQG) is to generate human-like questions relevant to
+the given image. As VQG is an emerging research field, existing works tend to focus only on resource-rich language such as English due
+to the availability of datasets. In this paper, we propose the first Bengali Visual Question Gen-
+eration task and develop a novel transformer-based encoder-decoder architecture that gener-
+ates questions in Bengali when given an image. We propose multiple variants of models - (i) image-only: baseline model of generating questions from images without additional infor-
+mation, (ii) image-category and image-answer-
+category: guided VQG where we condition
+
+the model to generate questions based on the
+answer and the category of expected question.
+These models are trained and evaluated on the
+translated VQAv2.0 dataset. Our quantitative
+and qualitative results establish the first state of
+the art models for VQG task in Bengali and
+demonstrate that our models are capable of
+generating grammatically correct and relevant
+questions. Our quantitative results show that
+our image-cat model achieves a BLUE-1 score
+of 33.12 and BLEU-3 score of 7.56 which is
+the highest of the other two variants. We also
+perform a human evaluation to assess the qual-
+ity of the generation tasks. Human evaluation
+suggests that image-cat model is capable of
+generating goal-driven and attribute-specific
+questions and also stays relevant to the cor-
+responding image.
+            </p>
+            <p></p>
+            </a></p>
+          </td>
+        </tr>
+      </table>
+
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" ></tr>
+        <td width="25%">
+          <div class="one">
             <div class="two" id = 'jump_image'><img src='ethics.png'></div>
             <img src='ethics.png'>
           </div>
@@ -256,10 +322,11 @@
           </script>
         </td>
         <td valign="top" width="75%">
-          <p> <!--<a href="https://arxiv.org/abs/2210.00918"> -->
-          <papertitle>Making ethics at home in Global CS Education: Provoking stories from the Souths</papertitle> <!--</a>--><br>
-          Authors : Nova Ahmed, Cat Kutay, Shaimaa Lazem, Marisol Wong-Villacres, Cristina Abad, Cesar Collazos, Shady Elbas-suoni, Lamia Iftekhar, Farzana Islam, Deepa Singh,
-          <strong>Tasmiah Tahsin Mayeesha</strong>, Martin Ujakpamabeifam, Tariq Zaman & Nicola Bidwell.<br> 
+          <p> <a href="https://dl.acm.org/doi/10.1145/3608113"> 
+          <papertitle>Making ethics at home in Global CS Education: Provoking stories from the Souths</papertitle></a><br>
+          Authors : Marisol Wong-
+          Villacres, Cat Kutay, Shaimaa Lazem, Nova Ahmed, Cristina Abad, Cesar Collazos, Shady Elbas-
+          suoni, Farzana Islam, Deepa Singh, <strong>Tasmiah Tahsin Mayeesha</strong>, Martin Mabeifam Ujakpa, Tariq Zaman & Nicola J Bidwell<br> 
           <em>ACM Journal on Computing and Sustainable Societies.</em>, 2023<br>
           </p>
           <!-- 
