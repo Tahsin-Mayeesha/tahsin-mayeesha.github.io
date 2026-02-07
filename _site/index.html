@@ -81,6 +81,9 @@
 
   </head>
 
+<!-- Acknowledgements: Website template modified from https://kaamava.github.io/ and https://github.com/RayeRen/acad-homepage.github.io/. -->
+
+
   <body>
 
     <!--[if lt IE 9]>
@@ -274,21 +277,23 @@
 <h1 id="-publications">📝 Publications</h1>
 <p><strong>For a complete list of publications, please visit my <a href="https://scholar.google.com/citations?user=MRDAGP8AAAAJ&amp;hl=en">Google Scholar</a></strong>.</p>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ICTD 2024</div><img src="images/ai_ethics2.png" alt="sym" width="100%" /></div></div>
+<h2 id="-natural-language-processing">💬 Natural Language Processing</h2>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">IEEE BigData 2025</div><img src="images/adversarial_vlm.png" alt="sym" width="100%" /></div></div>
 <div class="paper-box-text">
 
-    <p><a href="https://dl.acm.org/doi/full/10.1145/3700794.3700820">AI4Bangladesh: AI Ethics for Bangladesh - Challenges, Risks, Principles, and Suggestions</a></p>
+    <p>Adversarial Misdirection: Probing &amp; Visualizing Cross-Modal Reasoning Vulnerabilities in Vision–Language Models. Accepted manuscript (to appear).</p>
 
-    <p><strong>Tasmiah Tahsin Mayeesha</strong>, Farzana Islam, Nova Ahmed</p>
+    <p><strong>Tasmiah Tahsin Mayeesha</strong>, Pretom Roy Ovi, Sharad Sharma</p>
 
     <ul>
-      <li>We present findings from 32 qualitative interviews examining AI ethics challenges in Bangladesh’s emerging AI ecosystem, proposing seven ethics principles and a roadmap for transparent, accountable, and fair AI development.</li>
+      <li>We introduce a framework for studying adversarial attacks on VLM reasoning capabilities, revealing that spatial reasoning is particularly vulnerable with a 20% attack success rate and 16% accuracy drop under low-cost prompt manipulations.</li>
     </ul>
 
     <div style="width: 100%;">
 <details>
 <summary>📑 Click to see abstract</summary>
-In recent times, the term AI ethics caught the attention among the academics, legislators, developers, and among AI users to promote ethical AI development. While countries in the North have led the way in discussions about the direction of ethical and responsible artificial intelligence development and deployment, perspectives from developing countries like Bangladesh are underrepresented. Based on 32 qualitative interviews with different stakeholders, including machine learning practitioners, academic researchers, and policymakers in the emerging AI ecosystem in Bangladesh, this work closely examines the ongoing challenges and opportunities to ensure AI ethics in Bangladesh with emerging AI usage. In Bangladesh, the government has not yet fully implemented measures to empower citizens with AI-related skills, policies, resources, and data ethics, and a significant portion of the population lacks knowledge in AI. In this paper, we are presenting the findings of AI4Bangladesh project that intend to create the roadmap for ethical AI in Bangladesh. We outline the core challenges, present situation, and risks of AI for Bangladesh; propose seven AI ethics principles, and offer suggestions to ensure a transparent, accountable, and fair AI ecosystem for Bangladesh.
+As multimodal AI systems increasingly underpin perception and reasoning in interactive environments, understanding their robustness has become a critical research frontier. Vision-language models (VLMs) are rapidly emerging as core perceptual and cognitive components in autonomous agents capable of multi-step reasoning, planning, and decision-making across complex, dynamic environments. Despite significant progress in adversarial robustness research for single-modality systems such as text or vision models, the vulnerabilities of VLMs—and particularly of VLM-based agents to cross-modal adversarial attacks that target reasoning processes remain underexplored. This paper introduces an exploratory framework for systematically studying adversarial interventions that disrupt the reasoning capabilities of VLMs. We focus on low-cost, feasible perturbations such as prompt injections and instruction manipulations that maintain surface plausibility while subtly interfering with compositional reasoning chains. Our evaluation on 200 carefully curated visual reasoning questions across four reasoning categories (counting, comparison, relational, and spatial) reveals an overall attack success rate of 9.5% and that spatial reasoning is particularly vulnerable to misdirection attacks, with accuracy dropping by 16% and a 20% attack success rate. We find that modern VLMs like GPT-4o-mini demonstrate varying robustness and accuracy across reasoning types. By framing adversarial attacks as disruptions to reasoning rather than perception alone, this work offers a foundation for analyzing and mitigating reasoning failures in multimodal systems intended for safety-critical and human–AI interaction contexts.
 </details>
 </div>
   </div>
@@ -354,6 +359,68 @@ Question generation (QG), the task of generating questions from text or other fo
   </div>
 </div>
 
+<div class="paper-box"><div class="paper-box-image"><div><img src="images/bangla_qa.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
+
+    <p><a href="https://www.tandfonline.com/doi/full/10.1080/24751839.2020.1833136">Deep learning based question answering system in Bengali</a></p>
+
+    <p><strong>Tasmiah Tahsin Mayeesha</strong>, Abdullah Md Sarwar, Rashedur M Rahman</p>
+
+    <ul>
+      <li>We establish the first end-to-end benchmark for Bengali question answering by training transformer-based models on a translated SQuAD 2.0 dataset, introducing a culturally grounded human-annotated evaluation set, and reporting the first human baseline scores.</li>
+    </ul>
+
+    <div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Recent advances in the field of natural language processing has improved state-of-the-art performances on many tasks including question answering for languages like English. Bengali language is ranked seventh and is spoken by about 300 million people all over the world. But due to lack of data and active research on QA similar progress has not been achieved for Bengali. Unlike English, there is no benchmark large scale QA dataset collected for Bengali, no pretrained language model that can be modified for Bengali question answering and no human baseline score for QA has been established either. In this work we use state-of-the-art transformer models to train QA system on a synthetic reading comprehension dataset translated from one of the most popular benchmark datasets in English called SQuAD 2.0. We collect a smaller human annotated QA dataset from Bengali Wikipedia with popular topics from Bangladeshi culture for evaluating our models. Finally, we compare our models with human children to set up a benchmark score using survey experiments.
+</details>
+</div>
+  </div>
+</div>
+
+<h2 id="️-ai-safety-ethics--policy">🛡️ AI Safety, Ethics &amp; Policy</h2>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Oxford Academic 2025</div><img src="images/gen_ai_regulation.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
+
+    <p><a href="https://academic.oup.com/edited-volume/60551/chapter-abstract/523644490">Navigating the Unknown: Regulation of Generative AI in South Asia</a></p>
+
+    <p><strong>Tasmiah Tahsin Mayeesha</strong> and others</p>
+
+    <ul>
+      <li>Through 32 stakeholder interviews across four South Asian countries, we explore challenges in regulating generative AI and propose contextualized frameworks addressing the region’s unique social, legal, and infrastructural needs.</li>
+    </ul>
+
+    <div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+Generative AI technologies, such as ChatGPT, Midjourney, and DALL-E, have revolutionized multiple sectors like agriculture, healthcare, and finance with their capability to produce advanced results. However, these technologies have the potential to cause harm in the form of spreading misinformation, manipulation of public sentiment, and creating discriminatory content that perpetuates harm toward a variety of groups. These risks are especially concerning in South Asia, where AI regulation remains nascent, and many internet users lack social media literacy. Without effective regulation, the harmful impacts of generative AI on social media could be amplified. This study explores how South Asian countries have developed policies to regulate generative AI and identifies the region-specific challenges in moderating AI-generated content. The study reviews existing literature on AI regulation principles in Asia and draws insights through semi-structured interviews with 32 stakeholders from four South Asian countries, including academic researchers, industry professionals, government officials, and legal experts. Using a content analysis of interview transcripts, the work explores social, legal, and infrastructural challenges of managing generative AI. Respondents highlighted the hazards of social media's use of generative AI and emphasized the need for contextualized rules that would be sensitive to the diverse groups found in South Asian society. Thus, the study presents comparative analysis of regulation frameworks and addresses ways of creating responsible regulation of generative AI in the region in a manner that addresses the complex nature of AI's prospects and challenges in South Asian society.
+</details>
+</div>
+  </div>
+</div>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ICTD 2024</div><img src="images/ai_ethics2.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
+
+    <p><a href="https://dl.acm.org/doi/full/10.1145/3700794.3700820">AI4Bangladesh: AI Ethics for Bangladesh - Challenges, Risks, Principles, and Suggestions</a></p>
+
+    <p><strong>Tasmiah Tahsin Mayeesha</strong>, Farzana Islam, Nova Ahmed</p>
+
+    <ul>
+      <li>We present findings from 32 qualitative interviews examining AI ethics challenges in Bangladesh’s emerging AI ecosystem, proposing seven ethics principles and a roadmap for transparent, accountable, and fair AI development.</li>
+    </ul>
+
+    <div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+In recent times, the term AI ethics caught the attention among the academics, legislators, developers, and among AI users to promote ethical AI development. While countries in the North have led the way in discussions about the direction of ethical and responsible artificial intelligence development and deployment, perspectives from developing countries like Bangladesh are underrepresented. Based on 32 qualitative interviews with different stakeholders, including machine learning practitioners, academic researchers, and policymakers in the emerging AI ecosystem in Bangladesh, this work closely examines the ongoing challenges and opportunities to ensure AI ethics in Bangladesh with emerging AI usage. In Bangladesh, the government has not yet fully implemented measures to empower citizens with AI-related skills, policies, resources, and data ethics, and a significant portion of the population lacks knowledge in AI. In this paper, we are presenting the findings of AI4Bangladesh project that intend to create the roadmap for ethical AI in Bangladesh. We outline the core challenges, present situation, and risks of AI for Bangladesh; propose seven AI ethics principles, and offer suggestions to ensure a transparent, accountable, and fair AI ecosystem for Bangladesh.
+</details>
+</div>
+  </div>
+</div>
+
 <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACM COMPASS 2023</div><img src="images/ethics.png" alt="sym" width="100%" /></div></div>
 <div class="paper-box-text">
 
@@ -376,44 +443,145 @@ University courses and curricula on the ethics of computing are increasing, yet 
   </div>
 </div>
 
-<div class="paper-box"><div class="paper-box-image"><div><img src="images/bangla_qa.png" alt="sym" width="100%" /></div></div>
+<ul>
+  <li><strong>Ubicomp 2024</strong> (XAI For U Workshop) <a href="https://dl.acm.org/doi/abs/10.1145/3675094.3679002">Know Your Users: Towards Explainable AI in Bangladesh</a> Farzana Islam, <strong>Tasmiah Tahsin Mayeesha</strong>, Nova Ahmed</li>
+</ul>
+
+<h2 id="-human-computer-interaction-hci">👥 Human-Computer Interaction (HCI)</h2>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACM TOCHI 2025</div><img src="images/meena_codesign.png" alt="sym" width="100%" /></div></div>
 <div class="paper-box-text">
 
-    <p><a href="https://www.tandfonline.com/doi/full/10.1080/24751839.2020.1833136">Deep learning based question answering system in Bengali</a></p>
+    <p><a href="https://dl.acm.org/doi/abs/10.1145/3762808">Meena Needs a Computer Now: Co-design Solutions to Barriers using Fictional Inquiry for Women in Computing</a></p>
 
-    <p><strong>Tasmiah Tahsin Mayeesha</strong>, Abdullah Md Sarwar, Rashedur M Rahman</p>
+    <p>Nova Ahmed, <strong>Tasmiah Tahsin Mayeesha</strong>, Ifti Azad Abeer, Sumit Kumar Kar, Anik Saha, Anik Sinha, Sumaya Akter Ruhi, Md. Hussain Shahriar, Sumaya Yasmin, Nazmun Nahar, Syeda Shabnam Khan</p>
 
     <ul>
-      <li>We establish the first end-to-end benchmark for Bengali question answering by training transformer-based models on a translated SQuAD 2.0 dataset, introducing a culturally grounded human-annotated evaluation set, and reporting the first human baseline scores.</li>
+      <li>Using fictional inquiry and co-design workshops with 48 women computing students across Bangladesh, we explore barriers and solutions while reflecting on methodological approaches for culturally appropriate WiC research.</li>
     </ul>
 
     <div style="width: 100%;">
 <details>
 <summary>📑 Click to see abstract</summary>
-Recent advances in the field of natural language processing has improved state-of-the-art performances on many tasks including question answering for languages like English. Bengali language is ranked seventh and is spoken by about 300 million people all over the world. But due to lack of data and active research on QA similar progress has not been achieved for Bengali. Unlike English, there is no benchmark large scale QA dataset collected for Bengali, no pretrained language model that can be modified for Bengali question answering and no human baseline score for QA has been established either. In this work we use state-of-the-art transformer models to train QA system on a synthetic reading comprehension dataset translated from one of the most popular benchmark datasets in English called SQuAD 2.0. We collect a smaller human annotated QA dataset from Bengali Wikipedia with popular topics from Bangladeshi culture for evaluating our models. Finally, we compare our models with human children to set up a benchmark score using survey experiments.
+Gender disparity in computing is a well-explored concern. To complement existing research, we use a non-intrusive exploration method of Fictional Inquiry. Followed by co-design workshop to explore solution approaches to increase women's participation in computing. The study involved n=48 women in computing (WiC) students in computing from 4 universities across Bangladesh. Participants shared their challenges and desired solutions which we analyzed using qualitative methods along with Natural Language Processing based tools to illustrate the problems from various perspectives while minimizing potential biases. The research team reflects on methodological decisions, policy implications, and the need for culturally and contextually appropriate tools and datasets to better support WiC research in resource-limited settings.
 </details>
 </div>
   </div>
 </div>
 
-<p><code class="language-plaintext highlighter-rouge">Ubicomp 2024</code> <a href="https://dl.acm.org/doi/abs/10.1145/3675094.3679002">Know Your Users: Towards Explainable AI in Bangladesh</a> Farzana Islam, <strong>Tasmiah Tahsin Mayeesha</strong>, Nova Ahmed</p>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ACM JCSS 2025</div><img src="images/wic_success.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
 
-<p><code class="language-plaintext highlighter-rouge">CSCW 2018</code><a href="https://arxiv.org/pdf/1812.11430">Applying Text Mining to Protest Stories as Voice against Media Censorship</a> <strong>Tasmiah Tahsin Mayeesha</strong>, Zareen Tasneem, Jasmin Jones, Nova Ahmed</p>
+    <p><a href="https://dl.acm.org/doi/full/10.1145/3724502">The Necessary Ingredients for Success of Women in Computing: A 360° Perspective from Students, Professionals and Stakeholders</a></p>
+
+    <p>Nova Ahmed, <strong>Tasmiah Tahsin Mayeesha</strong>, Ifti Azad Abeer, Anik Sinha, Anik Saha</p>
+
+    <ul>
+      <li>Using fictional inquiry and co-design with 71 participants across Bangladesh, we identify three major elements for women’s success in computing: skill development, sense of belonging, and safety—providing guidelines for stakeholders and policymakers.</li>
+    </ul>
+
+    <div style="width: 100%;">
+<details>
+<summary>📑 Click to see abstract</summary>
+The underrepresentation of women in computing in the workplace requires an understanding of the adequate elements needed for women to succeed in Bangladesh complementing the existing body of work. It uses a varied modality of communication Fictional inquiry (FI), where participants write letters to fictional characters followed by a Co-design of solutions. This research considers N=71 participants, 48 tertiary-level computer science and engineering students, and 23 stakeholders covering academics, computing professionals, and guardians of women in computing over a period of one and a half years. The study identifies three major elements for women in computing to succeed professionally: provision to improve skills and self-efficacy, ensuring ways to increase the sense of belonging, and providing transportation and safety aligning through the women's empowerment framework of Naila Kabeer. The required elements for success and empowerment show that a collaborative approach of support is required from families, institutes, and authorities from a regional perspective that can be of interest to researchers from the HCI, CSCW, and ICTD fields. This work is further expected to provide a guideline for stakeholders, policymakers, institutions, and families eager to ensure inclusive learning and growing space for women in computing.
+</details>
+</div>
+  </div>
+</div>
+
+<ul>
+  <li>
+    <p><strong>IEEE Region 10 Symposium (TENSYMP) 2025</strong> <a href="https://ieeexplore.ieee.org/abstract/document/11145010">Exploring the Social Barriers During Their Learning Pathways for Women in Computing (WiC)</a> Nova Ahmed, <strong>Tasmiah Tahsin Mayeesha</strong>, Ifti Azad Abeer, Anik Saha, Anik Sinha</p>
+  </li>
+  <li>
+    <p><strong>CSCW 2018</strong> (Solidarity Across Borders Workshop ) <a href="https://arxiv.org/pdf/1812.11430">Applying Text Mining to Protest Stories as Voice against Media Censorship</a> <strong>Tasmiah Tahsin Mayeesha</strong>, Zareen Tasneem, Jasmin Jones, Nova Ahmed</p>
+  </li>
+</ul>
+
+<h2 id="-projects">🚀 Projects</h2>
+
+<ul>
+  <li>
+    <p><strong><a href="https://huggingface.co/Tahsin-Mayeesha/wav2vec2-bn-300m">Bengali Automatic Speech Recognition System</a></strong>, <em>Huggingface Robust Speech Event</em>, 2022. | <a href="https://huggingface.co/Tahsin-Mayeesha/wav2vec2-bn-300m">[Model]</a> | <a href="https://huggingface.co/spaces/huggingface/hf-speech-bench">[Benchmark]</a> - Fine-tuned Wav2vec2-xls-r model on OpenSLR Bangla Speech dataset with 200k+ samples, recognized as one of the best performing models for Bengali in the Huggingface Robust Speech Sprint.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://huggingface.co/flax-community/gpt2-bengali">Bengali GPT-2 Model</a></strong>, <em>Huggingface Flax-Jax Event</em>, 2021. | <a href="https://huggingface.co/flax-community/gpt2-bengali">[Model]</a> - Pre-trained GPT-2 model on Bengali corpus from mC4 (multilingual C4) dataset with fine-tuned variations including Bengali song lyrics generation.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/Tahsin-Mayeesha/credit-card-recommender-django-app-and-chatbot">Credit Card Recommender System</a></strong>, <em>Software Engineering Course</em>, 2018. | <a href="https://github.com/Tahsin-Mayeesha/credit-card-recommender-django-app-and-chatbot">[Code]</a> - Similarity-based recommendation model using geolocation and card-specific features from Bangladeshi banks, deployed with Django web app and Google Dialogflow chatbot.</p>
+  </li>
+  <li>
+    <p><strong>Dobhashi - English-Bangla Machine Translation</strong>, <em>Natural Language Processing Course</em>, 2018. | <a href="https://drive.google.com/file/d/1BNcM3NudmEomHzBvmX4ZqLybKe20Nxt2/view">[Report]</a> - LSTM and transformer-based machine translation model trained on SUPARA Benchmark corpus, achieving BLEU score of 46.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://tahsin-mayeesha.github.io/Dhaka_Tribune-Network-Visualization/">News Article Network Visualization on Violence Against Women</a></strong>, 2017. | <a href="https://tahsin-mayeesha.github.io/Dhaka_Tribune-Network-Visualization/">[Interactive Network]</a> | <a href="https://github.com/Tahsin-Mayeesha/Dhaka_Tribune-Network-Visualization">[Code]</a> - Network visualization exploring media coverage of harassment and violence against women cases. Featured by Fast.ai in “<a href="http://www.fast.ai/2017/02/27/not-just-silicon-valley/">Deep Learning, Not just for Silicon Valley</a>”.</p>
+  </li>
+</ul>
 
 <h1 id="-educations">📖 Educations</h1>
 <ul>
-  <li><em>2024.08 - Present</em>, Ph.D. in Information Science, University of North Texas, Denton, Texas, USA.</li>
+  <li><em>2024.08 - Present</em>, Ph.D. in Information Science (Data Science Concentration), University of North Texas, Denton, Texas, USA.</li>
   <li><em>2016 - 2020</em>, B.Sc. in Computer Science and Engineering, North South University, Dhaka, Bangladesh.</li>
 </ul>
 
 <h1 id="-research-experience">💻 Research Experience</h1>
+
 <ul>
-  <li><em>2024 - 2025</em>, NLP Researcher, EBLICT-Dream71 Bangla Public Administration Chatbot Project (funded by <a href="https://bangla.gov.bd/">Bangla.gov.bd</a>), Product: <a href="https://jiggasha.ai/">Jiggasha.ai</a></li>
-  <li><em>2022 - 2024</em>, HCI Researcher, <a href="https://sites.google.com/view/nsuhci/home">Design, Inclusion &amp; Access Lab (DIAL)</a>, North South University</li>
-  <li><em>2021 - 2024</em>, Senior Research Assistant, Bengali NLP Project, North South University</li>
-  <li><em>2022</em>, Predoctoral Fellow, <a href="https://www.fatimafellowship.com/">Fatima Fellowship</a></li>
-  <li><em>2019</em>, Google Summer of Code, <a href="https://www.tensorflow.org/hub">TensorFlow Hub</a></li>
-  <li><em>2018</em>, Google Summer of Code, <a href="https://cyber.harvard.edu/">Berkman Klein Center for Internet &amp; Society</a>, Harvard University</li>
+  <li>
+    <p><em>2026 - Present</em>, Graduate Teaching Assistant, Data Science Department, University of North Texas</p>
+  </li>
+  <li><em>2025 - Present</em>, Graduate Research Assistant, University of North Texas, supervised by <a href="https://scholar.google.com/citations?user=iy-E9Y4AAAAJ&amp;hl=en">Dr. Pretom Roy Ovi</a>
+    <ul>
+      <li>Evaluating reasoning capabilities of LLMs on logical puzzles and structured reasoning tasks</li>
+      <li>Designing novel benchmarks for LLM logical and visual reasoning evaluation; analyzing failure modes and domain shift effects</li>
+    </ul>
+  </li>
+  <li><em>2024 - Present</em>, NLP Researcher, EBLICT-Dream71 Virtual Private Assistant (VPA) Project (funded by <a href="https://bangla.gov.bd/">Bangla.gov.bd</a>), supervised by <a href="https://scholar.google.com/citations?user=jvrb40cAAAAJ&amp;hl=en">Mohammad Mamun Or Rashid</a>
+    <ul>
+      <li>Developing Llama-based RAG chatbots for government-funded conversational AI to enhance accessibility of public administration information for <a href="https://jiggasha.ai/">Jiggasha.ai</a></li>
+      <li>Managing data collection team of engineers and annotators; collaborating with stakeholders to define dataset requirements and ensure ethical standards</li>
+      <li>Producing technical documentation, research papers, and methodological write-ups</li>
+    </ul>
+  </li>
+  <li><em>2022 - 2024</em>, HCI Researcher, <a href="https://sites.google.com/view/nsuhci/home">Design, Inclusion &amp; Access Lab (DIAL)</a>, North South University, supervised by <a href="https://sites.google.com/site/novaahmednorthsouthnva/home?authuser=0">Dr. Nova Ahmed</a>
+    <ul>
+      <li><strong>Designing Accountable and Ethical AI for South Asian Marginalized Communities</strong>: Conducted expert interviews with stakeholders across Bangladesh, India, and South Asia; performed analysis and literature review to design AI ethics frameworks and data-driven policy recommendations</li>
+      <li><strong>My Freedom in Light</strong>: Led fictional inquiry and co-design workshops investigating challenges of women in computing in Bangladesh</li>
+      <li><strong>CS Ethics of Global South</strong>: Conducted interviews with researchers and practitioners to revise ACM CS curriculum guidelines on ethics</li>
+      <li><strong>Alor Akash - Gender and Technology in Bangladesh</strong>: Researched gender, technology, and financial inclusion; performed text visualization and sentiment analysis of interview transcripts</li>
+    </ul>
+  </li>
+  <li><em>2022 - Present</em>, Research Assistant, Bengali NLP: Application in Literature and Natural Language Generation, North South University, supervised by <a href="http://ece.northsouth.edu/people/rashedur-rahman/">Dr. Mohammad Rashedur Rahman</a>
+    <ul>
+      <li>Developed answer-aware Bengali question generation models by fine-tuning Multilingual T5 and BanglaT5, achieving 95%+ on answerability, grammatical correctness, and relevancy metrics</li>
+      <li>Conducted human evaluation and benchmarking against Hindi and Arabic models</li>
+      <li>Mentored two junior research assistants on Bengali Visual Question Generation research</li>
+    </ul>
+  </li>
+  <li><em>2022 - 2023</em>, Predoctoral Research Fellow, <a href="http://fatimafellowship.com/">Fatima Fellowship</a>, mentored by <a href="https://benjamin-mlr.github.io/">Benjamin Muller</a>
+    <ul>
+      <li>Analyzed generative multilingual language models (BLOOM and XGLM) to investigate formality bias across 5 languages</li>
+      <li>Optimized prompting techniques to reduce degenerated sentences and detect formality patterns in multilingual outputs</li>
+    </ul>
+  </li>
+  <li><em>2022</em>, AI Fellow, <a href="https://picampus-school.com/programme/school-of-artificial-intelligence/">Pi School of AI</a>, Rome, Italy (Remote), supervised by <a href="https://www.linkedin.com/in/sebastien-bratieres">Sébastien Bratières</a>
+    <ul>
+      <li>Developed multilingual code-mixed language identification for 10 European languages in collaboration with Translated</li>
+      <li>Trained XLM-ROBERTA model achieving competitive performance with Fasttext/Lingua on short text token-level language prediction</li>
+    </ul>
+  </li>
+  <li><em>2019</em>, Google Summer of Code, <a href="https://www.tensorflow.org/hub">TensorFlow Hub</a>, mentored by <a href="https://www.linkedin.com/in/vojtech-bardiovsk%C3%BD-05a98581/">Vojtech Bardiovský</a>
+    <ul>
+      <li>Developed <a href="https://summerofcode.withgoogle.com/projects/#4518878934204416">text embedding modules</a> for TensorFlow Hub</li>
+      <li>Authored <a href="https://www.tensorflow.org/hub/tutorials/bangla_article_classifier">tutorial on Bangla news article classification</a> featured in official TensorFlow Hub documentation</li>
+    </ul>
+  </li>
+  <li><em>2018</em>, Google Summer of Code, <a href="https://cyber.harvard.edu/">Berkman Klein Center for Internet &amp; Society</a>, Harvard University, mentored by <a href="https://cyber.harvard.edu/people/hroberts">Hal Roberts</a>
+    <ul>
+      <li>Created <a href="https://summerofcode.withgoogle.com/archive/2018/projects/5704578783772672/">Mediaviz</a>, a Python network visualization library for MediaCloud topic graphs</li>
+      <li>Implemented automatic layout scaling for 100-1000 node graphs with graph filtering, coloring, node resizing, and community visualization features | <a href="https://github.com/Tahsin-Mayeesha/Mediaviz/tree/master/mediaviz">[Code]</a> | <a href="https://medium.com/learning-machine-learning/gsoc-2018-experience-visualizing-media-data-with-network-analysis-part-1-c4ba4b76b1aa">[Blog 1]</a> | <a href="https://medium.com/learning-machine-learning/gsoc-2018-network-visualization-of-mediacloud-topic-network-1st-evaluation-part-2-ca72e25a88d5">[Blog 2]</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h1 id="-honors-and-awards">🎖 Honors and Awards</h1>
@@ -430,7 +598,7 @@ Recent advances in the field of natural language processing has improved state-o
 <p><span class="anchor" id="-services"></span></p>
 <h1 id="️-services">⚙️ Services</h1>
 <ul>
-  <li><em>Reviewer</em>: ACM COMPASS 2024, ACM CHI 2025, ACM CSCW 2025</li>
+  <li><em>Reviewer</em>: ACM CHI 2025 (Student Design Competition), Springer Nature Journals</li>
   <li><em>Program Committee Member</em> Edge AI Research Symposium 2026, San Diego</li>
 </ul>
 
@@ -445,7 +613,7 @@ Recent advances in the field of natural language processing has improved state-o
 <ul>
   <li><em>2025</em>, Presenter, <strong>Workshop on Safe and Secure AI agents</strong>, The 13th IEEE International Conference on Big Data (IEEE BigData 2025).</li>
   <li><em>2024</em>, Presenter, <strong>Proceedings of the 13th International Conference on Information &amp; Communication Technologies and Development</strong>, ICTD 2024, Nairobi, Kenya (presented virtually).</li>
-  <li><em>2024</em>, Poster Presentation, <strong>South Asian AI Ethics Framework: What Values Are We Looking For?</strong>, ACM COMPASS 2024, New Delhi, India.</li>
+  <li><em>2024</em>, Poster Presentation, <strong>South Asian AI Ethics Framework: What Values Are We Looking For?</strong>, ACM COMPASS 2024, New Delhi, India. | <a href="https://www.researchgate.net/publication/385597404_South_Asian_AI_Ethics_Framework_What_Values_Are_We_Looking_For">Poster</a></li>
   <li><em>2024</em>, Delegate, <strong>The Inaugural Conference of the International Association for Safe and Ethical AI</strong>, OECD Headquarters, Paris. | <a href="https://www.iaseai.org/conference">[conference]</a></li>
 </ul>
 
@@ -459,7 +627,8 @@ Recent advances in the field of natural language processing has improved state-o
 </ul>
 
 <h1 id="-misc">🪄 Misc</h1>
-<p>I also write about machine learning on my <a href="https://medium.com/@tahsinmayeesha">blog</a> and <a href="https://tasmiahtahsinmayeesha.substack.com/">substack</a>.</p>
+<p>I write about machine learning, NLP, and responsible AI.<br />
+→ <strong>Read &amp; subscribe on <a href="https://tasmiahtahsinmayeesha.substack.com/">Substack</a> and <a href="https://medium.com/@tahsinmayeesha">Medium</a></strong>.</p>
 
           </section>
         </div>
