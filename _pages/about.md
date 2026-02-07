@@ -268,7 +268,7 @@ The underrepresentation of women in computing in the workplace requires an under
   - Evaluating reasoning capabilities of LLMs on logical puzzles and structured reasoning tasks
   - Designing novel benchmarks for LLM logical and visual reasoning evaluation; analyzing failure modes and domain shift effects
 
-- *2024 - Present*, NLP Researcher, EBLICT-Dream71 Virtual Private Assistant (VPA) Project (funded by [Bangla.gov.bd](https://bangla.gov.bd/)), supervised by [Mohammad Mamun Or Rashid](https://scholar.google.com/citations?user=jvrb40cAAAAJ&hl=en)
+- *2024 - 2025*, NLP Researcher, EBLICT-Dream71 Virtual Private Assistant (VPA) Project (funded by [Bangla.gov.bd](https://bangla.gov.bd/)), supervised by [Mohammad Mamun Or Rashid](https://scholar.google.com/citations?user=jvrb40cAAAAJ&hl=en)
   - Developing Llama-based RAG chatbots for government-funded conversational AI to enhance accessibility of public administration information for [Jiggasha.ai](https://jiggasha.ai/)
   - Managing data collection team of engineers and annotators; collaborating with stakeholders to define dataset requirements and ensure ethical standards
   - Producing technical documentation, research papers, and methodological write-ups
@@ -279,7 +279,7 @@ The underrepresentation of women in computing in the workplace requires an under
   - **CS Ethics of Global South**: Conducted interviews with researchers and practitioners to revise ACM CS curriculum guidelines on ethics
   - **Alor Akash - Gender and Technology in Bangladesh**: Researched gender, technology, and financial inclusion; performed text visualization and sentiment analysis of interview transcripts
 
-- *2022 - Present*, Research Assistant, Bengali NLP: Application in Literature and Natural Language Generation, North South University, supervised by [Dr. Mohammad Rashedur Rahman](http://ece.northsouth.edu/people/rashedur-rahman/)
+- *2022 - 2023*, Research Assistant, **Bengali NLP: Application in Literature and Natural Language Generation**, North South University, supervised by [Dr. Mohammad Rashedur Rahman](http://ece.northsouth.edu/people/rashedur-rahman/)
   - Developed answer-aware Bengali question generation models by fine-tuning Multilingual T5 and BanglaT5, achieving 95%+ on answerability, grammatical correctness, and relevancy metrics
   - Conducted human evaluation and benchmarking against Hindi and Arabic models
   - Mentored two junior research assistants on Bengali Visual Question Generation research
